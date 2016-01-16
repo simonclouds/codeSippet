@@ -1,0 +1,2 @@
+[DllImport("wininet.dll")]
+public static extern bool InternetGetConnectedState(out int lpdwFlags, int dwReserved);
